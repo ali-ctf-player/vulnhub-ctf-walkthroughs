@@ -11,7 +11,7 @@
 
 ### Nmap Scan
 
-nmap -sV -p- 192.168.56.10
+nmap -sV -P -A -T4 -O 192.168.56.10
 
 
 ## 2. Enumeration
