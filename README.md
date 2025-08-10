@@ -23,29 +23,29 @@ The goal of this repo is to:
 
 | Machine Name             | Difficulty | Link to Writeup |
 |--------------------------|------------|-----------------|
-| Deathnote                | -          | [Writeup](Deathnote/Deathnote.md) |
-| Cute                     | -          | [Writeup](Cute/Cute.md) |
-| Dawn                     | -          | [Writeup](Dawn/Dawn.md) |
-| Derpnstink                | -          | [Writeup](Derpnstink/Derpnstink.md) |
-| Dusk                     | -          | [Writeup](Dusk/Dusk.md) |
-| Election                 | -          | [Writeup](Election/Election.md) |
-| Empire                   | -          | [Writeup](Empire/Empire.md) |
-| Geloste                  | -          | [Writeup](Geloste/Geloste.md) |
-| Hackable II               | -          | [Writeup](HackableII/HackableII.md) |
-| ICMP                     | -          | [Writeup](ICMP/ICMP.md) |
-| Kioptrix                 | -          | [Writeup](Kioptrix/Kioptrix.md) |
-| Lemonsqueezy             | -          | [Writeup](Lemonsqueezy/Lemonsqueezy.md) |
-| Lord of the Root         | -          | [Writeup](LordOfTheRoot/LordOfTheRoot.md) |
-| Nightfall                | -          | [Writeup](Nightfall/Nightfall.md) |
-| Photographer             | -          | [Writeup](Photographer/Photographer.md) |
-| Potato                   | -          | [Writeup](Potato/Potato.md) |
+| Deathnote: 1             | -          | [Writeup](Deathnote/Deathnote.md) |
+| Cute 1.0.2               | -          | [Writeup](Cute/Cute.md) |
+| Sunset: Dawn             | -          | [Writeup](Dawn/Dawn.md) |
+| Derpnstink: 1            | -          | [Writeup](Derpnstink/Derpnstink.md) |
+| Sunset: Dusk             | -          | [Writeup](Dusk/Dusk.md) |
+| Election: 1              | -          | [Writeup](Election/Election.md) |
+| Empire: 1                | -          | [Writeup](Empire/Empire.md) |
+| Funbox: Rookie           | -          | [Writeup](Geloste/Geloste.md) |
+| Hackable II              | -          | [Writeup](HackableII/HackableII.md) |
+| ICMP: 1                  | -          | [Writeup](ICMP/ICMP.md) |
+| Kioptrix: Level 1        | -          | [Writeup](Kioptrix#1/Kioptrix#1.md) |
+| Lemonsqueezy: 1          | -          | [Writeup](Lemonsqueezy/Lemonsqueezy.md) |
+| Lord of the Root: 1.0.1  | -          | [Writeup](LordOfTheRoot/LordOfTheRoot.md) |
+| Sunset: Nightfall        | -          | [Writeup](Nightfall/Nightfall.md) |
+| Photographer: 1          | -          | [Writeup](Photographer/Photographer.md) |
+| Potato: 1                | -          | [Writeup](Potato/Potato.md) |
 | Prime Series Level 1     | -          | [Writeup](PrimeSeriesLevel1/PrimeSeriesLevel1.md) |
-| Solstice                 | -          | [Writeup](Solstice/Solstice.md) |
-| Sundown                  | -          | [Writeup](Sundown/Sundown.md) |
-| Sunrise                  | -          | [Writeup](Sunrise/Sunrise.md) |
-| Typhoon                  | -          | [Writeup](Typhoon/Typhoon.md) |
-| Venom                    | -          | [Writeup](Venom/Venom.md) |
-| SAR                      | -          | [Writeup](SAR/SAR.md) |
+| Sunset: Solstice         | -          | [Writeup](Solstice/Solstice.md) |
+| Sunset: Sundown          | -          | [Writeup](Sundown/Sundown.md) |
+| Sunset: Sunrise          | -          | [Writeup](Sunrise/Sunrise.md) |
+| Typhoon: 1.02            | -          | [Writeup](Typhoon/Typhoon.md) |
+| Venom: 1                 | -          | [Writeup](Venom/Venom.md) |
+| SAR: 1                   | -          | [Writeup](SAR/SAR.md) |
 
 
 ---
