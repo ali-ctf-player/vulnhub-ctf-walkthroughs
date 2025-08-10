@@ -1,0 +1,395 @@
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Sun Aug 10 15:54:00 2025
+URL_BASE: http://deathnote.vuln/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://deathnote.vuln/ ----
++ http://deathnote.vuln/index.html (CODE:200|SIZE:197)                         
+==> DIRECTORY: http://deathnote.vuln/manual/                                   
++ http://deathnote.vuln/robots.txt (CODE:200|SIZE:68)                          
++ http://deathnote.vuln/server-status (CODE:403|SIZE:279)                      
+==> DIRECTORY: http://deathnote.vuln/wordpress/                                
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/da/                                
+==> DIRECTORY: http://deathnote.vuln/manual/de/                                
+==> DIRECTORY: http://deathnote.vuln/manual/en/                                
+==> DIRECTORY: http://deathnote.vuln/manual/es/                                
+==> DIRECTORY: http://deathnote.vuln/manual/fr/                                
+==> DIRECTORY: http://deathnote.vuln/manual/images/                            
++ http://deathnote.vuln/manual/index.html (CODE:200|SIZE:626)                  
+==> DIRECTORY: http://deathnote.vuln/manual/ja/                                
+==> DIRECTORY: http://deathnote.vuln/manual/ko/                                
+==> DIRECTORY: http://deathnote.vuln/manual/style/                             
+==> DIRECTORY: http://deathnote.vuln/manual/tr/                                
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/                             
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/ ----
++ http://deathnote.vuln/wordpress/index.php (CODE:200|SIZE:92)                 
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/                       
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-content/                     
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-includes/                    
++ http://deathnote.vuln/wordpress/xmlrpc.php (CODE:200|SIZE:92)                
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/da/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/da/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/da/howto/                          
++ http://deathnote.vuln/manual/da/index.html (CODE:200|SIZE:9117)              
+==> DIRECTORY: http://deathnote.vuln/manual/da/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/da/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/da/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/da/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/de/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/de/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/de/howto/                          
++ http://deathnote.vuln/manual/de/index.html (CODE:200|SIZE:9544)              
+==> DIRECTORY: http://deathnote.vuln/manual/de/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/de/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/de/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/de/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/en/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/en/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/en/howto/                          
++ http://deathnote.vuln/manual/en/index.html (CODE:200|SIZE:9482)              
+==> DIRECTORY: http://deathnote.vuln/manual/en/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/en/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/en/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/en/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/es/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/es/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/es/howto/                          
++ http://deathnote.vuln/manual/es/index.html (CODE:200|SIZE:9891)              
+==> DIRECTORY: http://deathnote.vuln/manual/es/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/es/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/es/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/es/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/fr/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/fr/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/fr/howto/                          
++ http://deathnote.vuln/manual/fr/index.html (CODE:200|SIZE:9844)              
+==> DIRECTORY: http://deathnote.vuln/manual/fr/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/fr/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/fr/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/fr/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/ja/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/ja/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/ja/howto/                          
++ http://deathnote.vuln/manual/ja/index.html (CODE:200|SIZE:9935)              
+==> DIRECTORY: http://deathnote.vuln/manual/ja/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/ja/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/ja/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/ja/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/ko/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/ko/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/ko/howto/                          
++ http://deathnote.vuln/manual/ko/index.html (CODE:200|SIZE:8585)              
+==> DIRECTORY: http://deathnote.vuln/manual/ko/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/ko/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/ko/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/ko/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/style/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/tr/developer/                      
+==> DIRECTORY: http://deathnote.vuln/manual/tr/faq/                            
+==> DIRECTORY: http://deathnote.vuln/manual/tr/howto/                          
++ http://deathnote.vuln/manual/tr/index.html (CODE:200|SIZE:9714)              
+==> DIRECTORY: http://deathnote.vuln/manual/tr/misc/                           
+==> DIRECTORY: http://deathnote.vuln/manual/tr/mod/                            
+==> DIRECTORY: http://deathnote.vuln/manual/tr/programs/                       
+==> DIRECTORY: http://deathnote.vuln/manual/tr/ssl/                            
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/ ----
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/developer/                   
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/faq/                         
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/howto/                       
++ http://deathnote.vuln/manual/zh-cn/index.html (CODE:200|SIZE:9211)           
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/misc/                        
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/mod/                         
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/programs/                    
+==> DIRECTORY: http://deathnote.vuln/manual/zh-cn/ssl/                         
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/ ----
++ http://deathnote.vuln/wordpress/wp-admin/admin.php (CODE:200|SIZE:92)        
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/css/                   
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/images/                
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/includes/              
++ http://deathnote.vuln/wordpress/wp-admin/index.php (CODE:200|SIZE:92)        
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/js/                    
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/maint/                 
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/network/               
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-admin/user/                  
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-content/ ----
++ http://deathnote.vuln/wordpress/wp-content/index.php (CODE:200|SIZE:0)       
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-content/plugins/             
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-content/themes/              
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-content/upgrade/             
+==> DIRECTORY: http://deathnote.vuln/wordpress/wp-content/uploads/             
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-includes/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/developer/ ----
++ http://deathnote.vuln/manual/da/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/faq/ ----
++ http://deathnote.vuln/manual/da/faq/index.html (CODE:200|SIZE:3880)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/howto/ ----
++ http://deathnote.vuln/manual/da/howto/index.html (CODE:200|SIZE:8865)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/misc/ ----
++ http://deathnote.vuln/manual/da/misc/index.html (CODE:200|SIZE:5386)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/mod/ ----
++ http://deathnote.vuln/manual/da/mod/index.html (CODE:200|SIZE:23354)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/programs/ ----
++ http://deathnote.vuln/manual/da/programs/index.html (CODE:200|SIZE:6973)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/da/ssl/ ----
++ http://deathnote.vuln/manual/da/ssl/index.html (CODE:200|SIZE:5277)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/developer/ ----
++ http://deathnote.vuln/manual/de/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/faq/ ----
++ http://deathnote.vuln/manual/de/faq/index.html (CODE:200|SIZE:3880)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/howto/ ----
++ http://deathnote.vuln/manual/de/howto/index.html (CODE:200|SIZE:8865)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/misc/ ----
++ http://deathnote.vuln/manual/de/misc/index.html (CODE:200|SIZE:5386)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/mod/ ----
++ http://deathnote.vuln/manual/de/mod/index.html (CODE:200|SIZE:23546)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/programs/ ----
++ http://deathnote.vuln/manual/de/programs/index.html (CODE:200|SIZE:6973)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/de/ssl/ ----
++ http://deathnote.vuln/manual/de/ssl/index.html (CODE:200|SIZE:5277)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/developer/ ----
++ http://deathnote.vuln/manual/en/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/faq/ ----
++ http://deathnote.vuln/manual/en/faq/index.html (CODE:200|SIZE:3880)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/howto/ ----
++ http://deathnote.vuln/manual/en/howto/index.html (CODE:200|SIZE:8865)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/misc/ ----
++ http://deathnote.vuln/manual/en/misc/index.html (CODE:200|SIZE:5386)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/mod/ ----
++ http://deathnote.vuln/manual/en/mod/index.html (CODE:200|SIZE:23354)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/programs/ ----
++ http://deathnote.vuln/manual/en/programs/index.html (CODE:200|SIZE:6973)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/en/ssl/ ----
++ http://deathnote.vuln/manual/en/ssl/index.html (CODE:200|SIZE:5277)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/developer/ ----
++ http://deathnote.vuln/manual/es/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/faq/ ----
++ http://deathnote.vuln/manual/es/faq/index.html (CODE:200|SIZE:3979)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/howto/ ----
++ http://deathnote.vuln/manual/es/howto/index.html (CODE:200|SIZE:8279)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/misc/ ----
++ http://deathnote.vuln/manual/es/misc/index.html (CODE:200|SIZE:5859)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/mod/ ----
++ http://deathnote.vuln/manual/es/mod/index.html (CODE:200|SIZE:23733)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/programs/ ----
++ http://deathnote.vuln/manual/es/programs/index.html (CODE:200|SIZE:7444)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/es/ssl/ ----
++ http://deathnote.vuln/manual/es/ssl/index.html (CODE:200|SIZE:5277)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/developer/ ----
++ http://deathnote.vuln/manual/fr/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/faq/ ----
++ http://deathnote.vuln/manual/fr/faq/index.html (CODE:200|SIZE:3885)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/howto/ ----
++ http://deathnote.vuln/manual/fr/howto/index.html (CODE:200|SIZE:9328)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/misc/ ----
++ http://deathnote.vuln/manual/fr/misc/index.html (CODE:200|SIZE:5717)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/mod/ ----
++ http://deathnote.vuln/manual/fr/mod/index.html (CODE:200|SIZE:25575)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/programs/ ----
++ http://deathnote.vuln/manual/fr/programs/index.html (CODE:200|SIZE:7282)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/fr/ssl/ ----
++ http://deathnote.vuln/manual/fr/ssl/index.html (CODE:200|SIZE:5427)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/developer/ ----
++ http://deathnote.vuln/manual/ja/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/faq/ ----
++ http://deathnote.vuln/manual/ja/faq/index.html (CODE:200|SIZE:3880)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/howto/ ----
++ http://deathnote.vuln/manual/ja/howto/index.html (CODE:200|SIZE:8217)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/misc/ ----
++ http://deathnote.vuln/manual/ja/misc/index.html (CODE:200|SIZE:5386)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/mod/ ----
++ http://deathnote.vuln/manual/ja/mod/index.html (CODE:200|SIZE:24656)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/programs/ ----
++ http://deathnote.vuln/manual/ja/programs/index.html (CODE:200|SIZE:6973)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ja/ssl/ ----
++ http://deathnote.vuln/manual/ja/ssl/index.html (CODE:200|SIZE:5497)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/developer/ ----
++ http://deathnote.vuln/manual/ko/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/faq/ ----
++ http://deathnote.vuln/manual/ko/faq/index.html (CODE:200|SIZE:3880)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/howto/ ----
++ http://deathnote.vuln/manual/ko/howto/index.html (CODE:200|SIZE:6661)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/misc/ ----
++ http://deathnote.vuln/manual/ko/misc/index.html (CODE:200|SIZE:5483)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/mod/ ----
++ http://deathnote.vuln/manual/ko/mod/index.html (CODE:200|SIZE:22786)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/programs/ ----
++ http://deathnote.vuln/manual/ko/programs/index.html (CODE:200|SIZE:5845)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/ko/ssl/ ----
++ http://deathnote.vuln/manual/ko/ssl/index.html (CODE:200|SIZE:5277)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/developer/ ----
++ http://deathnote.vuln/manual/tr/developer/index.html (CODE:200|SIZE:6182)    
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/faq/ ----
++ http://deathnote.vuln/manual/tr/faq/index.html (CODE:200|SIZE:3887)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/howto/ ----
++ http://deathnote.vuln/manual/tr/howto/index.html (CODE:200|SIZE:8865)        
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/misc/ ----
++ http://deathnote.vuln/manual/tr/misc/index.html (CODE:200|SIZE:5616)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/mod/ ----
++ http://deathnote.vuln/manual/tr/mod/index.html (CODE:200|SIZE:23632)         
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/programs/ ----
++ http://deathnote.vuln/manual/tr/programs/index.html (CODE:200|SIZE:7476)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/tr/ssl/ ----
++ http://deathnote.vuln/manual/tr/ssl/index.html (CODE:200|SIZE:5419)          
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/developer/ ----
++ http://deathnote.vuln/manual/zh-cn/developer/index.html (CODE:200|SIZE:6218) 
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/faq/ ----
++ http://deathnote.vuln/manual/zh-cn/faq/index.html (CODE:200|SIZE:3846)       
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/howto/ ----
++ http://deathnote.vuln/manual/zh-cn/howto/index.html (CODE:200|SIZE:6845)     
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/misc/ ----
++ http://deathnote.vuln/manual/zh-cn/misc/index.html (CODE:200|SIZE:5084)      
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/mod/ ----
++ http://deathnote.vuln/manual/zh-cn/mod/index.html (CODE:200|SIZE:23233)      
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/programs/ ----
++ http://deathnote.vuln/manual/zh-cn/programs/index.html (CODE:200|SIZE:6904)  
+                                                                               
+---- Entering directory: http://deathnote.vuln/manual/zh-cn/ssl/ ----
++ http://deathnote.vuln/manual/zh-cn/ssl/index.html (CODE:200|SIZE:5265)       
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/css/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/images/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/includes/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/js/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/maint/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/network/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-admin/user/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-content/plugins/ ----
++ http://deathnote.vuln/wordpress/wp-content/plugins/index.php (CODE:200|SIZE:0)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-content/themes/ ----
++ http://deathnote.vuln/wordpress/wp-content/themes/index.php (CODE:200|SIZE:0)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-content/upgrade/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+---- Entering directory: http://deathnote.vuln/wordpress/wp-content/uploads/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+-----------------
+END_TIME: Sun Aug 10 15:56:13 2025
+DOWNLOADED: 364348 - FOUND: 83
