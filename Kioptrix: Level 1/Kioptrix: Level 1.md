@@ -3,7 +3,7 @@
 
 **VulnHub Link:** [Kioptrix Level 1](https://www.vulnhub.com/entry/kioptrix-level-1-1,22/)  
 **Difficulty:** Easy  
-**Release Date:** November 18, 2010  
+**Release Date:** November 18, 2010 
 
 ---
 
