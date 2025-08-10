@@ -33,7 +33,7 @@ The goal of this repo is to:
 | Funbox: Rookie           | -          | [Writeup](Geloste/Geloste.md) |
 | Hackable II              | -          | [Writeup](HackableII/HackableII.md) |
 | ICMP: 1                  | -          | [Writeup](ICMP/ICMP.md) |
-| Kioptrix: Level 1        | -          | [Writeup](Kioptrix#1/Kioptrix#1.md) |
+| Kioptrix: Level 1        | -          | [Writeup](Kioptrix: Level 1/Kioptrix: Level 1.md) |
 | Lemonsqueezy: 1          | -          | [Writeup](Lemonsqueezy/Lemonsqueezy.md) |
 | Lord of the Root: 1.0.1  | -          | [Writeup](LordOfTheRoot/LordOfTheRoot.md) |
 | Sunset: Nightfall        | -          | [Writeup](Nightfall/Nightfall.md) |
