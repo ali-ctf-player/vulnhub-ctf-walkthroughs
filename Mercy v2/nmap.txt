@@ -1,0 +1,79 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-12 22:07 +04
+Nmap scan report for 192.168.100.127
+Host is up (0.00042s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE    SERVICE     VERSION
+22/tcp   filtered ssh
+53/tcp   open     domain      ISC BIND 9.9.5-3ubuntu0.17 (Ubuntu Linux)
+| dns-nsid: 
+|_  bind.version: 9.9.5-3ubuntu0.17-Ubuntu
+80/tcp   filtered http
+110/tcp  open     pop3        Dovecot pop3d
+|_pop3-capabilities: CAPA SASL PIPELINING AUTH-RESP-CODE TOP STLS UIDL RESP-CODES
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=localhost/organizationName=Dovecot mail server
+| Not valid before: 2018-08-24T13:22:55
+|_Not valid after:  2028-08-23T13:22:55
+139/tcp  open     netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+143/tcp  open     imap        Dovecot imapd (Ubuntu)
+| ssl-cert: Subject: commonName=localhost/organizationName=Dovecot mail server
+| Not valid before: 2018-08-24T13:22:55
+|_Not valid after:  2028-08-23T13:22:55
+|_imap-capabilities: LOGINDISABLEDA0001 LITERAL+ SASL-IR IMAP4rev1 Pre-login IDLE have OK ID post-login ENABLE capabilities listed STARTTLS LOGIN-REFERRALS more
+|_ssl-date: TLS randomness does not represent time
+445/tcp  open     netbios-ssn Samba smbd 4.3.11-Ubuntu (workgroup: WORKGROUP)
+993/tcp  open     ssl/imap    Dovecot imapd (Ubuntu)
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=localhost/organizationName=Dovecot mail server
+| Not valid before: 2018-08-24T13:22:55
+|_Not valid after:  2028-08-23T13:22:55
+|_imap-capabilities: LITERAL+ SASL-IR IMAP4rev1 Pre-login ENABLE have AUTH=PLAINA0001 ID post-login OK capabilities listed IDLE LOGIN-REFERRALS more
+995/tcp  open     ssl/pop3    Dovecot pop3d
+| ssl-cert: Subject: commonName=localhost/organizationName=Dovecot mail server
+| Not valid before: 2018-08-24T13:22:55
+|_Not valid after:  2028-08-23T13:22:55
+|_ssl-date: TLS randomness does not represent time
+|_pop3-capabilities: CAPA SASL(PLAIN) USER AUTH-RESP-CODE TOP PIPELINING UIDL RESP-CODES
+8080/tcp open     http        Apache Tomcat/Coyote JSP engine 1.1
+|_http-title: Apache Tomcat
+|_http-server-header: Apache-Coyote/1.1
+| http-robots.txt: 1 disallowed entry 
+|_/tryharder/tryharder
+| http-methods: 
+|_  Potentially risky methods: PUT DELETE
+MAC Address: 08:00:27:19:40:1E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.14, Linux 3.8 - 3.16
+Network Distance: 1 hop
+Service Info: Host: MERCY; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_nbstat: NetBIOS name: MERCY, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time: 
+|   date: 2025-08-12T18:07:33
+|_  start_date: N/A
+|_clock-skew: mean: -2h39m59s, deviation: 4h37m07s, median: 0s
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.3.11-Ubuntu)
+|   Computer name: mercy
+|   NetBIOS computer name: MERCY\x00
+|   Domain name: \x00
+|   FQDN: mercy
+|_  System time: 2025-08-13T02:07:33+08:00
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.41 ms 192.168.100.127
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 22.97 seconds
