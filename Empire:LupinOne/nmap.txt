@@ -1,0 +1,29 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-13 21:59 +04
+Nmap scan report for 192.168.100.129
+Host is up (0.00022s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5 (protocol 2.0)
+| ssh-hostkey: 
+|   3072 ed:ea:d9:d3:af:19:9c:8e:4e:0f:31:db:f2:5d:12:79 (RSA)
+|   256 bf:9f:a9:93:c5:87:21:a3:6b:6f:9e:e6:87:61:f5:19 (ECDSA)
+|_  256 ac:18:ec:cc:35:c0:51:f5:6f:47:74:c3:01:95:b4:0f (ED25519)
+80/tcp open  http    Apache httpd 2.4.48 ((Debian))
+| http-robots.txt: 1 disallowed entry 
+|_/~myfiles
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.48 (Debian)
+MAC Address: 50:C2:E8:8E:F8:9F (Cloud Network Technology Singapore PTE.)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.22 ms 192.168.100.129
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.07 seconds
