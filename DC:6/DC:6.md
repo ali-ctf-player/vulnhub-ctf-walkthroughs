@@ -1,5 +1,5 @@
 
-DC:6 Waalkthrough
+# DC:6 Walkthrough
 
 **VulnHub Link:** [DC:6](https://www.vulnhub.com/entry/dc-6,315/)
 **Difficulty:** Easy  
