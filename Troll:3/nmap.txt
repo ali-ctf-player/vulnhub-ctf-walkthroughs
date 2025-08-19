@@ -1,0 +1,24 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-19 22:35 +04
+Nmap scan report for 192.168.100.138
+Host is up (0.00023s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 6d:d1:ea:d0:a8:1e:83:ef:c7:4f:ae:4c:bb:d6:75:19 (RSA)
+|   256 24:5f:cb:ef:3a:db:b5:59:c6:15:51:b9:2b:9b:fa:39 (ECDSA)
+|_  256 8b:96:de:4a:11:45:a7:f9:eb:60:9b:45:da:1a:21:de (ED25519)
+MAC Address: 08:00:27:C9:E6:6E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.14
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.23 ms 192.168.100.138
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2.02 seconds
