@@ -1,0 +1,24 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-20 21:54 +04
+Nmap scan report for 192.168.100.140
+Host is up (0.00017s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp filtered ssh
+80/tcp open     http    Apache httpd 2.4.46 ((Ubuntu))
+|_http-title: Kryptos - LAN Home
+|_http-server-header: Apache/2.4.46 (Ubuntu)
+| http-robots.txt: 1 disallowed entry 
+|_/config
+MAC Address: 08:00:27:89:C0:A3 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4)
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.17 ms 192.168.100.140
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.95 seconds
