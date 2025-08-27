@@ -1,0 +1,42 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-27 13:47 +04
+Nmap scan report for 192.168.100.165
+Host is up (0.00024s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+6667/tcp open  irc     UnrealIRCd
+| irc-info: 
+|   users: 1
+|   servers: 1
+|   lusers: 1
+|   lservers: 0
+|   server: irc.foonet.com
+|   version: Unreal3.2.8.1. irc.foonet.com 
+|   uptime: 0 days, 0:02:25
+|   source ident: nmap
+|   source host: 74182487.B64A8BD2.EA8777A3.IP
+|_  error: Closing Link: ulvoexswx[192.168.100.14] (Quit: ulvoexswx)
+MAC Address: 08:00:27:8A:7E:87 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.95%E=4%D=8/27%OT=6667%CT=1%CU=43054%PV=Y%DS=1%DC=D%G=Y%M=080027
+OS:%TM=68AED450%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10D%TI=Z%CI=Z%II
+OS:=I%TS=A)SEQ(SP=105%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=106%GCD=1%IS
+OS:R=10B%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=106%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A)S
+OS:EQ(SP=108%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M5B4ST11NW0%O2=M5B4ST
+OS:11NW0%O3=M5B4NNT11NW0%O4=M5B4ST11NW0%O5=M5B4ST11NW0%O6=M5B4ST11)WIN(W1=1
+OS:C48%W2=1C48%W3=1C48%W4=1C48%W5=1C48%W6=1C48)ECN(R=Y%DF=Y%T=40%W=1C84%O=M
+OS:5B4NNSNW0%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T
+OS:4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+
+OS:%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y
+OS:%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%
+OS:RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 1 hop
+Service Info: Host: irc.foonet.com
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.24 ms 192.168.100.165
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 12.80 seconds
