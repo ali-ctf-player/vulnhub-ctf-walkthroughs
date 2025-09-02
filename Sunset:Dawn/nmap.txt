@@ -1,0 +1,57 @@
+ nmap 192.168.100.83 -P -A -O -T4 -sV 
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-04 00:00 +04
+Nmap scan report for 192.168.100.83
+Host is up (0.00033s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+80/tcp   open  http        Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.4.38 (Debian)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+3306/tcp open  mysql       MariaDB 5.5.5-10.3.15
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.3.15-MariaDB-1
+|   Thread ID: 12
+|   Capabilities flags: 63486
+|   Some Capabilities: SupportsLoadDataLocal, IgnoreSigpipes, ODBCClient, Speaks41ProtocolOld, DontAllowDatabaseTableColumn, SupportsCompression, IgnoreSpaceBeforeParenthesis, Speaks41ProtocolNew, FoundRows, SupportsTransactions, ConnectWithDatabase, Support41Auth, InteractiveClient, LongColumnFlag, SupportsMultipleStatments, SupportsMultipleResults, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: T,~Xz"3{52;sQ{;NXOb}
+|_  Auth Plugin Name: mysql_native_password
+MAC Address: 08:00:27:19:8E:E6 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.14
+Network Distance: 1 hop
+Service Info: Host: DAWN
+
+Host script results:
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: dawn
+|   NetBIOS computer name: DAWN\x00
+|   Domain name: dawn
+|   FQDN: dawn.dawn
+|_  System time: 2025-07-03T16:00:51-04:00
+|_clock-skew: mean: 1h19m59s, deviation: 2h18m33s, median: 0s
+| smb2-time: 
+|   date: 2025-07-03T20:00:51
+|_  start_date: N/A
+|_nbstat: NetBIOS name: DAWN, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.33 ms 192.168.100.83
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.56 seconds
