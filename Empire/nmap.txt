@@ -1,0 +1,38 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-15 22:22 +04
+Nmap scan report for 192.168.100.99
+Host is up (0.00026s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE SERVICE     VERSION
+80/tcp    open  http        Apache httpd 2.4.51 ((Debian))
+|_http-server-header: Apache/2.4.51 (Debian)
+|_http-title: Apache2 Debian Default Page: It works
+139/tcp   open  netbios-ssn Samba smbd 4
+445/tcp   open  netbios-ssn Samba smbd 4
+10000/tcp open  http        MiniServ 1.981 (Webmin httpd)
+|_http-server-header: MiniServ/1.981
+|_http-title: 200 &mdash; Document follows
+20000/tcp open  http        MiniServ 1.830 (Webmin httpd)
+|_http-server-header: MiniServ/1.830
+|_http-title: 200 &mdash; Document follows
+MAC Address: 08:00:27:73:46:32 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+
+Host script results:
+|_nbstat: NetBIOS name: BREAKOUT, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-time: 
+|   date: 2025-07-15T18:22:16
+|_  start_date: N/A
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.26 ms 192.168.100.99
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 43.21 seconds
