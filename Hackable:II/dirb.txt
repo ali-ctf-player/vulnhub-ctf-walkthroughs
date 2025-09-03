@@ -1,0 +1,27 @@
+dirb http://192.168.1.66   
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Sat Jun 21 23:29:30 2025
+URL_BASE: http://192.168.1.66/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.1.66/ ----
+==> DIRECTORY: http://192.168.1.66/files/                                                                                                                                                    
++ http://192.168.1.66/index.html (CODE:200|SIZE:11239)                                                                                                                                       
++ http://192.168.1.66/server-status (CODE:403|SIZE:277)                                                                                                                                      
+                                                                                                                                                                                             
+---- Entering directory: http://192.168.1.66/files/ ----
+(!) WARNING: Directory IS LISTABLE. No need to scan it.                        
+    (Use mode '-w' if you want to scan it anyway)
+                                                                               
+-----------------
+END_TIME: Sat Jun 21 23:29:32 2025
+DOWNLOADED: 4612 - FOUND: 2
