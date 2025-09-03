@@ -1,0 +1,78 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-09 23:35 +04
+Stats: 0:00:47 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 96.88% done; ETC: 23:36 (0:00:01 remaining)
+Nmap scan report for 192.168.100.90
+Host is up (0.00027s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+21/tcp   open  ftp         pyftpdlib 1.5.6
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 192.168.100.90:21
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+22/tcp   open  ssh         OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 5b:a7:37:fd:55:6c:f8:ea:03:f5:10:bc:94:32:07:18 (RSA)
+|   256 ab:da:6a:6f:97:3f:b2:70:3e:6c:2b:4b:0c:b7:f6:4c (ECDSA)
+|_  256 ae:29:d4:e3:46:a1:b1:52:27:83:8f:8f:b0:c4:36:d1 (ED25519)
+25/tcp   open  smtp        Exim smtpd
+| smtp-commands: solstice Hello nmap.scanme.org [192.168.100.14], SIZE 52428800, 8BITMIME, PIPELINING, CHUNKING, PRDR, HELP
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+80/tcp   open  http        Apache httpd 2.4.38 ((Debian))
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+2121/tcp open  ftp         pyftpdlib 1.5.6
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drws------   2 www-data www-data     4096 Jun 18  2020 pub
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 192.168.100.90:2121
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+3128/tcp open  http-proxy  Squid http proxy 4.6
+|_http-server-header: squid/4.6
+|_http-title: ERROR: The requested URL could not be retrieved
+MAC Address: 08:00:27:BB:CC:B9 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+Service Info: Host: SOLSTICE; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-time: 
+|   date: 2025-07-09T19:35:27
+|_  start_date: N/A
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_nbstat: NetBIOS name: SOLSTICE, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: \x00
+|   NetBIOS computer name: SOLSTICE\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2025-07-09T15:35:27-04:00
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+|_clock-skew: mean: 1h19m59s, deviation: 2h18m34s, median: -1s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.27 ms 192.168.100.90
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 52.13 seconds
