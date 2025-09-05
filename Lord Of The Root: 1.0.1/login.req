@@ -1,0 +1,16 @@
+POST /978345210/index.php HTTP/1.1
+Host: 192.168.100.108:1337
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: http://192.168.100.108:1337/978345210/index.php
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 44
+Origin: http://192.168.100.108:1337
+Connection: keep-alive
+Cookie: PHPSESSID=klqukmemg3gdst3m4g9b77gu64
+Upgrade-Insecure-Requests: 1
+Priority: u=0, i
+
+username=admin&password=admin&submit=+Login+

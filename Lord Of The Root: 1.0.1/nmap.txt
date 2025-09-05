@@ -1,0 +1,16 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-28 21:58 +04
+Nmap scan report for 192.168.100.108
+Host is up (0.00051s latency).
+
+PORT     STATE    SERVICE VERSION
+1337/tcp filtered waste
+MAC Address: 08:00:27:92:2E:33 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.51 ms 192.168.100.108
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.41 seconds
