@@ -1,0 +1,78 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-09-06 21:14 +04
+Nmap scan report for 192.168.100.141
+Host is up (0.00025s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.9p1 Debian 10+deb10u2 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 43:e9:45:ec:f4:5b:ed:e9:64:47:43:43:39:96:9d:c9 (RSA)
+|   256 ed:67:ad:31:04:17:ef:cf:75:02:05:db:88:94:97:a0 (ECDSA)
+|_  256 ed:41:e5:d1:b2:23:2c:d5:90:59:2a:37:8b:da:31:c1 (ED25519)
+25/tcp   open  smtp        Exim smtpd 4.92
+| smtp-commands: twilight Hello nmap.scanme.org [192.168.100.14], SIZE 52428800, 8BITMIME, PIPELINING, CHUNKING, PRDR, HELP
+|_ Commands supported: AUTH HELO EHLO MAIL RCPT DATA BDAT NOOP QUIT RSET HELP
+80/tcp   open  http        Apache httpd 2.4.38 ((Debian))
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_http-server-header: Apache/2.4.38 (Debian)
+139/tcp  open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp  open  netbios-ssn Samba smbd 4.9.5-Debian (workgroup: WORKGROUP)
+2121/tcp open  ftp         pyftpdlib 1.5.6
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-rw-r--r--   1 root     root           35 Jul 16  2020 22253251-65325.twilight
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|  Connected to: 192.168.100.141:2121
+|  Waiting for username.
+|  TYPE: ASCII; STRUcture: File; MODE: Stream
+|  Data connection closed.
+|_End of status.
+3306/tcp open  mysql       MariaDB 5.5.5-10.3.22
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.5-10.3.22-MariaDB-0+deb10u1
+|   Thread ID: 37
+|   Capabilities flags: 63486
+|   Some Capabilities: FoundRows, LongColumnFlag, SupportsCompression, Support41Auth, IgnoreSigpipes, SupportsTransactions, Speaks41ProtocolOld, IgnoreSpaceBeforeParenthesis, ConnectWithDatabase, Speaks41ProtocolNew, InteractiveClient, ODBCClient, SupportsLoadDataLocal, DontAllowDatabaseTableColumn, SupportsAuthPlugins, SupportsMultipleResults, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: _G%~p9et:`Uj5f%$##'6
+|_  Auth Plugin Name: mysql_native_password
+8080/tcp open  http        PHP cli server 5.5 or later
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: Login - powered by Easy File Sharing Web Server
+MAC Address: 08:00:27:64:57:6E (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Device type: general purpose|router
+Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)
+Network Distance: 1 hop
+Service Info: Host: twilight; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb2-time: 
+|   date: 2025-09-06T17:14:50
+|_  start_date: N/A
+| smb-os-discovery: 
+|   OS: Windows 6.1 (Samba 4.9.5-Debian)
+|   Computer name: twilight
+|   NetBIOS computer name: TWILIGHT\x00
+|   Domain name: \x00
+|   FQDN: twilight
+|_  System time: 2025-09-06T13:14:50-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_clock-skew: mean: 1h19m59s, deviation: 2h18m33s, median: 0s
+|_nbstat: NetBIOS name: TWILIGHT, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.25 ms 192.168.100.141
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 16.65 seconds
