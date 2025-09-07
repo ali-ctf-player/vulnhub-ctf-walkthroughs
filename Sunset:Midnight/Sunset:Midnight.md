@@ -58,6 +58,8 @@ in /var/www/html/wordpress/wp-config.php , we got jose password
 
 after gaining jose shell
 
+## 4.Privilege Escalation
+
 ```bash
 find / -perm /4000 2>/dev/null
 ```
