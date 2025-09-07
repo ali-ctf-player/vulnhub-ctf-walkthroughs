@@ -76,5 +76,4 @@ export PATH=/tmp:$PATH
 
 and BINGO ..! We got ROOT shell Successfully....!
 
-```
 
