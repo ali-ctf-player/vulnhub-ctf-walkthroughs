@@ -17,6 +17,13 @@ dirb http://192.168.100.175
 ```
 whatweb <ip>:8000 --> koken 0.24.22 vuln
 
+```bash
+searchsploit koken 0.24.22
+searchsploit -m php/webapps/48706.txt
+```
+
+we are doing what is written in txt file 
+
 image.php.jpg uploaded and changed into image.php in burp intercept 
 
 then downloaded and found path of shell file in web server
