@@ -34,6 +34,19 @@ searchsploit -m multiple/webapps/52346.py and we changing configs inside the pyt
 ## 3.Privilege Escalation (Horizontal)
 Once we got the initial access to the target , We can search common things such as sudo -l or suid bytes 
 
+We read wp-config.php from web root and found mysql credentials --> wp_user:password
+
+```bash
+mysql -u wp_user -p
+```
+We got max user's password hash
+
+```bash
+hashcat hash /usr/share/wordlists/rockyou.txt
+```
+
+and we found max credentials -> max:opensesame
+
 But .ssh directory of max user is readable by everyone 
 
 ```bash
