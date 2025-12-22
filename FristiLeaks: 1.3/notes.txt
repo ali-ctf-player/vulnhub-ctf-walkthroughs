@@ -1,0 +1,25 @@
+ Yo EZ,
+
+
+I made it possible for you to do some automated checks, 
+
+but I did only allow you access to /usr/bin/* system binaries. I did
+
+however copy a few extra often needed commands to my 
+
+homedir: chmod, df, cat, echo, ps, grep, egrep so you can use those
+
+from /home/admin/
+
+
+Don't forget to specify the full path for each binary!
+
+
+Just put a file called "runthis" in /tmp/, each line one command. The 
+
+output goes to the file "cronresult" in /tmp/. It should 
+
+run every minute with my account privileges.
+
+
+- Jerry 
