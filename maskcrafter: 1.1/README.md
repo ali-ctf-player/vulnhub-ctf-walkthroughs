@@ -62,7 +62,7 @@ and here we go we get shell
 ```python
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
-we can write this for better visually
+it have to be done for changing shell to terminal
 
 in /var/www/html we see db.php
 after reading it we see the mysql's password and the username
