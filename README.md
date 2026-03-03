@@ -28,6 +28,15 @@ This repository is not just writeups—it’s a **learning diary** of techniques
 
 ---
 
+
+## 🖥️ HackTheBox Machines
+
+| Machine | Difficulty | OS | Writeup |
+|---------|------------|----|---------|
+| Pirate  | Hard       | Windows | [Pirate](./Pirate/Pirate.md) |
+
+---
+
 ## ⚠️ Disclaimer  
 
 All activities in this repo are performed in **legal, controlled environments** (VulnHub, CTFs, labs).  
